@@ -1,0 +1,162 @@
+@media (max-width: 1200px) {
+    header {
+        padding: 0.5rem 1rem;
+        gap: 3rem;
+    }
+
+    .about-container {
+        gap: 5rem;
+    }
+
+    .about img {
+        width: 45vh;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .input-box input {
+        padding: 1.5rem 6rem;
+        font-size: 2rem;
+    }
+
+    .input-box input::placeholder {
+        font-size: 2rem;
+    }
+
+    .input i {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 90%;
+        padding: 0.5rem 1rem;
+        gap: 1rem;
+    }
+
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background: antiquewhite;
+        width: 90%;
+        padding: 2rem;
+        border-radius: 1rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .about {
+        padding-top: 10rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .about img {
+        width: 40vh;
+        margin-right: 0;
+    }
+
+    .getknow-content {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .right-content img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .article-container {
+        gap: 1.5rem;
+    }
+
+    article {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .input-box input {
+        padding: 1rem 4rem;
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .input-box input::placeholder {
+        font-size: 1.2rem;
+    }
+
+    .input i {
+        font-size: 2rem;
+    }
+
+    footer ul {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand {
+        font-size: 1.2rem;
+    }
+
+    .visit-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .about img {
+        width: 30vh;
+    }
+
+    .profile h3 {
+        font-size: 1.5rem;
+    }
+
+    .profile h1 {
+        font-size: 2rem;
+    }
+
+    .profile span {
+        font-size: 1.5rem;
+    }
+
+    .grid-card {
+        padding: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}

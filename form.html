@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+  </head>
+  <body>
+    <center><h1>FORMULIR PENDAFTARAN FASILKOM-TI SPORT</h1></center>
+    <form action="#">
+      <fieldset>
+        <legend></legend>
+        <table border="0" align="center ">
+          <tr>
+            <td><label for="usname">Username</label></td>
+            <td>: </td>
+            <td><input type="text" id="usname" name="usname" /></td>
+          </tr>
+          <tr>
+            <td><label for="pass"> Password </label></td>
+            <td>:</td>
+            <td><input type="password" id="pass" name="password"></td>
+          </tr>
+          <tr>
+            <td> <label for="email">Email</label></td>
+            <td>:</td>
+            <td><input type="email" id="email" name="email"></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <fieldset>
+        <table>
+          <tr>
+            <td style="width: 32%;"><label for="name">Nama</label></td>
+            <td>:</td>
+            <td><input type="text" id="name" name="name" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="nim">NIM</label></td>
+            <td>:</td>
+            <td><input type="number" id="nim" name="nim" /></td>
+          </tr>
+
+          <tr>
+            <td><label>Program Studi</label></td>
+            <td>:</td>
+            <td>
+              <select name="Program Studi">
+                <option>--Pilih Program Studi--</option>
+                <option value="ilkom">Ilmu Komputer</option>
+                <option value="ti">Teknologi Informasi</option>
+              </select>
+            </td>
+          </tr>
+          
+          <tr>
+            <td><label for="gender">Jenis Kelamin</label></td>
+            <td>:</td>
+            <td>
+              <input type="radio" name="Jenis Kelamin" value="Laki-laki" />laki-laki <br/>
+              <input type="radio" name="Jenis Kelamin" value="perempuan"/>Perempuan
+            </td>
+          </tr>
+          <tr></tr>
+            <td><label for="kom">Kom</label></td>
+            <td>:</td>
+            <td>
+              <input type="radio" name="kom" value="A" />A 
+              <input type="radio" name="kom" value="B"/>B 
+              <input type="radio" name="kom" value="C"/>C
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="fav"> Cabang olahraga yang diminati</label></td>
+            <td>:</td>
+            <td><input type="checkbox" name="fav" value="Badminton" />Badminton <br/>
+                <input type="checkbox" name="fav" value="Basket" />Basket <br/>
+                <input type="checkbox" name="fav" value="Futsal" />Futsal <br/>
+                <input type="checkbox" name="fav" value="Voly" />Voly <br/>
+                <input type="checkbox" name="fav" value="Tenis Meja" />Tenis Meja <br/>
+                <input type="checkbox" name="fav" value="Panahan" />Panahan <br/>
+                <input type="checkbox" name="fav" value="boxing" />Boxing 
+            </td>
+          </tr>
+
+        </table>
+      </fieldset>
+      <button type="submit" style="margin-bottom: 10px;">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

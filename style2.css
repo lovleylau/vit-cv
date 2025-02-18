@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(247, 215, 227);
+    background-image: url(sport2.jpeg); background-size: 100%;
+}
+h1{
+    text-align: center;
+    font-style: normal; color: rgb(203, 154, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table{
+    width: 100%;
+}
+
+fieldset{
+    border-radius: 15px;
+    background-color: rgba(255, 222, 203, 0.897);
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    vertical-align: top;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type="text"],  
+input[type="email"], 
+input[type="password"], 
+input[type="number"], 
+textarea,
+select {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: rgb(221, 156, 81);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#required{
+    color: red;
+}
+
+button{
+    background-color: rgb(95, 255, 55);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px
+}
+button[type="reset"]{
+    background-color: rgb(255, 72, 72);
+}
